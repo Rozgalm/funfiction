@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+#novel-pop {
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.novelwrapper {
+  height: 300px;
+  position: relative;
+}
+
+.novel-content,
+.inner-content {
+  width: 400px;
+  height: 600px;
+  display: inline-block;
+}
+
+.novel-content {
+  position: relative;
+  vertical-align: top;
+}
+
+.novel-content-right {
+}
+
+.novel-content-left {
+  border-right: 1px solid #FA5858;
+}
+
+.inner-content {
+  padding: 20px 10px;
+  position: absolute;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  right: 40px;
+  top: 20px;
+}
+
+/*
+.novel-inner-content {
+  width: 400px;
+  height: 600px;
+  
+}
+*/
+
+#novel-pop .novel-background{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url('../img/neko1.jpg') left top / cover no-repeat;
+  background-attachment: fixed;
+  opacity: 0.5;
+}
+
+#novel-pop .novel-background.novel-pop-jinro {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url('../img/novel1.png') left top / cover no-repeat;
+  background-attachment: fixed;
+  opacity: 0.5;
+}
+
+.page-action {
+  margin-top: -25px;
+  width: 30px;
+  height: 50px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  border: 1px  solid #ddd;
+  text-align: center;
+  cursor: pointer;
+  background-color: #ddd;
+  opacity: 0.4;
+}
+
+.page-action.next-page {
+  left: 0;
+  border-left: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.page-action.prev-page {
+  right: 0;
+  border-right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+.page-action:hover {
+  background-color: #9cd7f3;
+  opacity: 0.8;
+}
+
+.page-action a {
+  padding-top: 15px;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}

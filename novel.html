@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>創作置き場 - 小説</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/parallax.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <nav id="navi" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="./index.html">トップ</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="./novel.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">小説
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="./novel.html#novel-category-jinro">人狼</a>
+              </li>
+              <li>
+                <a href="./novel.html#novel-category-jikkyo">実況</a>
+              </li>
+              <li>
+                <a href="./novel.html#novel-category-Cthulhu">クトゥルフ</a>
+              </li>
+              <li>
+                <a href="./novel.html#novel-category-saniwa">審神者</a>
+              </li>
+              <li>
+                <a href="./novel.html#novel-category-orijinal">オリジナル</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="./illust.html">イラスト</a>
+          </li>
+          <li>
+            <a href="./movie.html">動画</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <article id="novel-content">
+    <section>
+      <div class="container">
+        <h2 class="title">
+          <span class="hover-line">新着順</span>
+        </h2>
+      </div>
+    </section>
+    <section>
+
+      <div class="container">
+        <table class="table">
+          <thead>
+            <th>ジャンル</th>
+            <th>タイトル</th>
+            <th>ページ数</th>
+            <th>説明</th>
+            <th>窓</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>人狼</td>
+              <td>小説「あの時の記憶」</td>
+              <td>長編・更新中　現在２話まで公開</td>
+              <td>某動画にて生放送された「役者が全力で演じる人狼ゲーム」を元に作った小説。</td>
+              <td>
+                <a href="#" class="btn  btn-info show-novel" target="_blank" role="button" title="新ポップで表示">
+                  <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+                </a>
+              </td>
+              <td>
+                <a href="#" class="btn  btn-info show-novel" target="_blank" role="button" title="Pixivで表示">
+                  <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+                </a>
+              </td>
+            </tr>
+            <td>実況</td>
+            <td>小説「平和を求めた者達」</td>
+            <td>長編・更新中　現在２話まで公開</td>
+            <td>某動画にて活躍中の実況者２グループが登場する、RPG×FPSのフィクション系。</td>
+            <td>
+              <a href="#" class="btn  btn-info show-novel" target="_blank" role="button" title="新ポップで表示">
+                <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+              </a>
+            </td>
+            <td>
+              <a href="#" class="btn  btn-info show-novel" target="_blank" role="button" title="Pixivで表示">
+                <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+              </a>
+            </td>
+            <tr>
+              <td>オリジナル</td>
+              <td>小説「君の声が届かない」</td>
+              <td>短編・更新中　現在２話まで公開</td>
+              <td>完全オリジナルの小説。RPGでよくある魔物達が主役のファンタジー系。</td>
+              <td>
+                <a href="#" class="btn  btn-info show-novel" target="_blank" role="button" title="新ポップで表示">
+                  <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+                </a>
+              </td>
+              <td>
+                <a href="#" class="btn  btn-info show-novel" target="_blank" role="button" title="Pixivで表示">
+                  <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h2 class="title">
+          <span class="hover-line">ジャンル一覧</span>
+        </h2>
+        <div>
+          <ul class="category-list">
+            <li>
+              <a href="#novel-category-jinro">人狼</a>
+            </li>
+            <li>
+              <a href="#novel-category-jikkyo">実況</a>
+            </li>
+            <li>
+              <a href="#novel-category-Cthulhu">クトゥルフ</a>
+            </li>
+            <li>
+              <a href="#novel-category-saniwa">審神者</a>
+            </li>
+            <li>
+              <a href="#novel-category-orijinal">オリジナル</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="novel-category-jinro" class="novel-category">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="thumbnail">
+            <img src="img/top.png">
+            <div class="caption">
+              <h3>人狼</h3>
+              <p>
+                ごく普通で平和に暮らしていた村に、人狼が紛れ込んだという知らせが入った。
+                <br>この村人たちは、果たして人狼を追放できるのだろうか。あるいは……。
+              </p>
+              <div class="novel-show-link">
+                <div>表示サイト</div>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-text">このサイト</button>
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="false">
+                    <span class="caret"></span>
+                    <span class="sr-only"></span>
+                  </button>
+                  <ul class="dropdown-menu link-types">
+                    <li>
+                      <a data-link-type="web">このサイト</a>
+                    </li>
+                    <li>
+                      <a data-link-type="pixiv">Pixiv</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="link-groups">
+                  <div class="link-group web active">
+                    <button type="button" class="btn btn-info show-novel" value="./novel/novel-pop.html">1話</button>
+                    <button type="button" class="btn btn-info show-novel" value="./novel/novel-pop2.html">2話</button>
+                    <button type="button" class="btn btn-info show-novel" value="./novel/novel-pop3.html">3話</button>
+                    <button type="button" class="btn btn-info show-novel" value="./novel/novel-pop4.html">4話</button>
+                  </div>
+                  <div class="link-group pixiv">
+                    <a class="btn btn-info" target="_blank" href="https://www.pixiv.net/">1話</a>
+                    <a class="btn btn-info" target="_blank" href="https://www.pixiv.net/">2話</a>
+                    <a class="btn btn-info" target="_blank" href="https://www.pixiv.net/">3話</a>
+                    <a class="btn btn-info" target="_blank" href="https://www.pixiv.net/">4話</a>
+                  </div>
+  
+                </div>
+
+              </div>
+            </div>
+            <div class="to-top" title="一番上へ戻る">
+              <a href="#novel-content">
+                <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </section>
+    <section id="novel-category-jikkyo" class="novel-category">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="thumbnail">
+            <img src="img/illust4.png">
+            <div class="caption">
+              <h3>実況</h3>
+              <p>
+                某動画サイトにて活躍中の、２大実況グループの人たちが繰り広げる、壮大な物語の数々。
+                <br>ある時はファンタジーで、ある時はホラーで。様々なシーンを駆け巡る。
+              </p>
+              <div class="novel-show-link">
+                <div>表示サイト</div>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-text">このサイト</button>
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="false">
+                    <span class="caret"></span>
+                    <span class="sr-only"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">このサイト</a>
+                    </li>
+                    <li>
+                      <a href="#">Pixiv</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn  btn-info show-novel" value="./novel/novel-pop.html">1話</button>
+                <button type="button" class="btn  btn-info show-novel" value="./novel/novel-pop2.html">2話</button>
+                <button type="button" class="btn  btn-info show-novel" value="./novel/novel-pop3.html">3話</button>
+                <button type="button" class="btn  btn-info show-novel" value="./novel/novel-pop4.html">4話</button>
+              </div>
+            </div>
+            <div class="to-top" title="一番上へ戻る">
+              <a href="#novel-content">
+                <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </section>
+    <section id="novel-category-Cthulhu" class="novel-category">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="thumbnail">
+            <img src="img/back1.png">
+            <div class="caption">
+              <h3>クトゥルフ</h3>
+              <p>
+                とある街の外れに、突如として現れる豪華な建物。そこには訳ありの人たちが住んでいて非日常的現象に巻き込まれる。
+                <br>また、別の場所では普通の事務所にて働く人達が、あり得ない事件へ巻き込まれていく。
+              </p>
+              <div class="novel-show-link">
+                <div>表示サイト</div>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-text">このサイト</button>
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="false">
+                    <span class="caret"></span>
+                    <span class="sr-only"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">このサイト</a>
+                    </li>
+                    <li>
+                      <a href="#">Pixiv</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn  btn-info show-novel" value="./novel/novel-pop.html">1話</button>
+                <button type="button" class="btn  btn-info show-novel" value="./novel/novel-pop2.html">2話</button>
+                <button type="button" class="btn  btn-info show-novel" value="./novel/novel-pop3.html">3話</button>
+                <button type="button" class="btn  btn-info show-novel" value="./novel/novel-pop4.html">4話</button>
+              </div>
+            </div>
+            <div class="to-top" title="一番上へ戻る">
+              <a href="#novel-content">
+                <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </section>
+    <section id="novel-category-saniwa" class="novel-category">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="thumbnail">
+            <img src="img/novel5.png">
+            <div class="caption">
+              <h3>審神者</h3>
+              <p>
+                今より遠い時代の話。審神者という、神の類を顕現することのできる不思議な力を持った者が稀にいる。
+                <br>その人達は政府の勅令により、隔離された「本丸」というところで特別な任務を与えられるのだ。
+              </p>
+              <div class="novel-show-link">
+                <div>表示サイト</div>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-text">このサイト</button>
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="false">
+                    <span class="caret"></span>
+                    <span class="sr-only"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">このサイト</a>
+                    </li>
+                    <li>
+                      <a href="#">Pixiv</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn  btn-info show-novel" value="./novel/novel-pop.html">1話</button>
+                <button type="button" class="btn  btn-info show-novel" value="./novel/novel-pop2.html">2話</button>
+                <button type="button" class="btn  btn-info show-novel" value="./novel/novel-pop3.html">3話</button>
+                <button type="button" class="btn  btn-info show-novel" value="./novel/novel-pop4.html">4話</button>
+              </div>
+            </div>
+            <div class="to-top" title="一番上へ戻る">
+              <a href="#novel-content">
+                <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </section>
+    <section id="novel-category-orijinal" class="novel-category">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="thumbnail">
+            <img src="img/illust1.png">
+            <div class="caption">
+              <h3>オリジナル</h3>
+              <p>
+                ファンタジーな世界であれば、通常人間が主体で魔物は敵側として登場する。
+                <br>だがここではどうやら違っているようで、魔物が主体の世界なのである。
+              </p>
+              <div class="novel-show-link">
+                <div>表示サイト</div>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-text">このサイト</button>
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="false">
+                    <span class="caret"></span>
+                    <span class="sr-only"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">このサイト</a>
+                    </li>
+                    <li>
+                      <a href="#">Pixiv</a>
+                    </li>
+                  </ul>
+                </div>
+                <button type="button" class="btn  btn-info show-novel" value="./novel/novel-pop.html">1話</button>
+                <button type="button" class="btn  btn-info show-novel" value="./novel/novel-pop2.html">2話</button>
+                <button type="button" class="btn  btn-info show-novel" value="./novel/novel-pop3.html">3話</button>
+                <button type="button" class="btn  btn-info show-novel" value="./novel/novel-pop4.html">4話</button>
+              </div>
+            </div>
+            <div class="to-top" title="一番上へ戻る">
+              <a href="#novel-content">
+                <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">&copy; 2017 generate Galm</p>
+      </div>
+    </footer>
+  </article>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/novel.js"></script>
+</body>
+
+</html>
