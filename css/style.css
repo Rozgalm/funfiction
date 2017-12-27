@@ -8,7 +8,10 @@ article{
     margin-top: 50px; 
 }
 
-#navi {
+#navi,
+#navi .open > a,
+#navi .open > a:focus,
+#navi .open > a:hover {
   background-color: #91e0c6;
 }
 
