@@ -66,11 +66,21 @@ article{
 }
 
 #top-content .timeline-frame {
+    margin: 0 20px;
     display: inline-block;
     border: 1px solid rgb(55, 55, 75);
     border-radius:15px;
     background-color: #FFC77D;
 }
+
+#top-content .timeline-frame.rozgal {
+  background-color: #428da0;
+}
+
+#top-content .timeline-frame.kingyoso {
+  background-color: #FFC77D;
+}
+
 
 #top-content .twitter {
     text-align: center;
@@ -133,7 +143,6 @@ article{
 #top-content .thumbnail {
     margin: 40px auto;
     padding: 15px 40px;
-    display: inline-block;
     border-radius: 15px; 
 }
 
@@ -141,6 +150,10 @@ article{
 #top-content .thumbnail h3 {
     text-align: center;
     border-bottom: 2px solid #FA5858
+}
+
+#top-content .thumbnail .caption {
+  text-align: center;
 }
 
 #top-content .thumbnail img {
