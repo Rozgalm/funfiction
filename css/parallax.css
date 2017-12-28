@@ -45,12 +45,12 @@
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   section.module.parallax-1 {
-    background-image: url("../img/top.png");
+    background-image: url("../img/top1.png");
   }
 
   section.module.parallax-2 {
     height: 900px;
-    background-image: url("../img/illust3.png");
+    background-image: url("../img/end.png");
   }
     
   @media all and (min-width: 600px) {

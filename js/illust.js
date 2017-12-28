@@ -24,7 +24,7 @@
         {
           filename: 'illust2.png',
           title: 'きんぎょ荘',
-          comment: 'きんぎょ荘メンバーのタクトくん(*´ω｀*)'
+          comment: 'きんぎょ荘リーダーの野薔薇リア(*´∀｀*)'
         }
       ]
     },
@@ -33,29 +33,9 @@
       title: '事務所',
       images: [
         {
-          filename: 'illust3.png',
-          title: '紗夜と海人',
-          comment: '幸せになってほしい……'
-        },
-        {
-          filename: 'novel2.png',
-          title: 'かわい女の子',
-          comment: 'あるセッションで出てきたNPC。'
-        },
-        {
-          filename: 'novel3.png',
-          title: 'かわいい女の子２',
-          comment: 'あるセッションで出てきたNPCその2。結構好き'
-        },
-        {
-          filename: 'novel4.png',
-          title: 'かっこいい男の子',
-          comment: 'あるセッションで出てきたNPCその3。やんちゃっ子'
-        },
-        {
-          filename: 'novel5.png',
-          title: 'かっこいい男の子',
-          comment: 'あるセッションで出てきたNPCその4。賢い'
+          filename: 'back1.png',
+          title: '事務所メンバー大集合',
+          comment: 'クトゥルフの主要メンバー(｀･ω･´)'
         }
       ]
     },
@@ -65,8 +45,13 @@
       images: [
         {
           filename: 'illust4.png',
-          title: 'wrwrd',
+          title: 'zm氏',
           comment: 'ちょっとおこなzm氏(´∀｀；)'
+        },
+        {
+          filename: 'illust5.png',
+          title: 'zm氏とrbr',
+          comment: '人狼を実況した時に１シーンを想像して描きました(｀･ω･´)'
         }
       ]
     },
