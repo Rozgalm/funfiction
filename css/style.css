@@ -64,7 +64,7 @@ article{
 #top-content .timeline {
     margin: 20px auto;
     height: 300px;
-    width: 250px;
+    max-width: 250px;
     overflow: scroll;
     overflow-x: hidden;
 }
