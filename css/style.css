@@ -89,6 +89,11 @@ article{
     text-align: center;
 }
 
+
+#top-content .row {
+  margin: 0;
+}
+
 .footer {
     padding: 15px 0;
     border-top: 1px solid #DDDDFF; 
