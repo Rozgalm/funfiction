@@ -335,6 +335,17 @@ article{
   color: black;
 }
 
+/*scroll trigger*/
+.invisible {
+	transition: opacity 1.5s ease;
+	opacity: 0.0;
+}
+
+.visible {
+	transition: opacity 1.5s ease;
+	opacity: 1.0;
+}
+
 /* Custom font */
 @font-face {
   font-family: 'Timemachine-wa';
