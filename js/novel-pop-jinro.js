@@ -1,7 +1,7 @@
-var jp = jp;
-if (!jp) jp = {};
-if (!jp.generate_galm) jp.generate_galm = {};
-if (!jp.generate_galm.novel) jp.generate_galm.novel = {};
+var io = io;
+if (!io) io = {};
+if (!io.github) io.github = {};
+if (!io.github.novelpop) io.github.novelpop = {};
 (function ($) {
   
   section = [
@@ -43,6 +43,6 @@ if (!jp.generate_galm.novel) jp.generate_galm.novel = {};
     }
   ];
 
-  jp.generate_galm.novel.section = section;
+  io.github.novelpop.section = section;
 
 })(jQuery);
