@@ -277,6 +277,10 @@ article{
   border-bottom-right-radius: 0;
 }
 
+#novel-content .thumbnail img {
+  max-height: 470px;
+}
+
 #novel-content .link-groups {
   display: inline-block;
 }

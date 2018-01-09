@@ -26,7 +26,13 @@ if (!io.github.novel) io.github.novel = {};
     $(document)
     .on('click', '#novel-content .show-novel', shownovel)
     .on('click', '#novel-content .link-types a', switchLinkType)
+    .on('click', '#novel-content .to-top a', linkToScroll)
+    .on('click', '#novel-content .category-list a', linkToScroll)
     ;
+
+    if (location.hash) {
+      smoothScroll(location.hash);
+    }
 
   }
 
@@ -77,6 +83,22 @@ if (!io.github.novel) io.github.novel = {};
 
     $parent.find('.dropdown-text').text($self.text());
 
+  }
+
+  function linkToScroll() {
+    smoothScroll($(this).attr('href'));
+  }
+
+  function smoothScroll(target) {
+    var pos;
+
+    if (target === '#') {
+      pos = 0;
+    } else {
+      pos = $(target).offset().top;
+    }
+    $('html').animate({scrollTop: pos}, 600, 'easeInOutCirc');
+    return false;
   }
 
 
@@ -134,13 +156,6 @@ if (!io.github.novel) io.github.novel = {};
 
   }
 
-  // 外部公開する関数を登録
-  io.github.novel.init = init;
+  init();
 
 })(jQuery);
-jQuery(function(){
-
-  // 初期化処理を実行
-  io.github.novel.init();
-  
-});
